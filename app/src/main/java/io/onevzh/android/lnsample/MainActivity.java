@@ -1,4 +1,4 @@
-package io.onevzh.android.utils;
+package io.onevzh.android.lnsample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

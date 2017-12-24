@@ -1,4 +1,4 @@
-package io.onevzh.android.utils;
+package io.onevzh.android.ln;
 
 import android.app.Application;
 
@@ -59,8 +59,8 @@ public final class Ln {
     private Ln() {
     }
 
-    public static void init(Application context) {
-        lnImpl = new LnImpl(context);
+    public static void init(Application application) {
+        lnImpl = new LnImpl(application);
     }
 
 

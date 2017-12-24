@@ -1,4 +1,4 @@
-package io.onevzh.android.utils;
+package io.onevzh.android.ln;
 
 public interface LnInterface {
     int v(Throwable t);
